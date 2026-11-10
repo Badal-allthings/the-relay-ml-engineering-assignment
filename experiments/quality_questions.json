@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": "Q01",
+    "question": "What is scaled dot-product attention, and how are queries, keys, and values used?",
+    "expected_paper": "Attention Is All You Need",
+    "expected_topics": ["queries", "keys", "values", "scaled dot-product attention"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q02",
+    "question": "Why does scaled dot-product attention divide query-key dot products by the square root of the key dimension?",
+    "expected_paper": "Attention Is All You Need",
+    "expected_topics": ["scaling factor", "softmax", "small gradients", "key dimension"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q03",
+    "question": "How does multi-head attention work, and why does the Transformer use multiple attention heads?",
+    "expected_paper": "Attention Is All You Need",
+    "expected_topics": ["multi-head attention", "parallel attention heads", "projections", "different representation subspaces"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q04",
+    "question": "How does the Transformer use positional encodings to represent token positions?",
+    "expected_paper": "Attention Is All You Need",
+    "expected_topics": ["positional encoding", "sine", "cosine", "position information"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q05",
+    "question": "What limitations of traditional speech dialogue pipelines motivate the design of Moshi?",
+    "expected_paper": "Moshi: a speech-text foundation model for real-time dialogue",
+    "expected_topics": ["pipeline latency", "non-linguistic information", "speaker turns", "interruptions"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q06",
+    "question": "How does Moshi model the user's speech and its own generated speech during a conversation?",
+    "expected_paper": "Moshi: a speech-text foundation model for real-time dialogue",
+    "expected_topics": ["parallel streams", "user audio", "Moshi audio", "full-duplex dialogue"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q07",
+    "question": "What is the Inner Monologue method in Moshi, and how does it help speech generation?",
+    "expected_paper": "Moshi: a speech-text foundation model for real-time dialogue",
+    "expected_topics": ["Inner Monologue", "time-aligned text tokens", "audio tokens", "linguistic quality"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q08",
+    "question": "What is Mimi, and what role does the neural audio codec play in Moshi?",
+    "expected_paper": "Moshi: a speech-text foundation model for real-time dialogue",
+    "expected_topics": ["Mimi", "neural audio codec", "discrete audio tokens", "residual quantization"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q09",
+    "question": "Why do the authors propose dynamic chunking as an alternative to conventional tokenization?",
+    "expected_paper": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+    "expected_topics": ["tokenization limitations", "dynamic segmentation", "end-to-end learning"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q10",
+    "question": "How does an H-Net use hierarchical processing to model sequences?",
+    "expected_paper": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+    "expected_topics": ["H-Net", "hierarchy", "sequence compression", "multiple levels of abstraction"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q11",
+    "question": "How does dynamic chunking learn content-dependent and context-dependent sequence boundaries?",
+    "expected_paper": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+    "expected_topics": ["dynamic chunking", "content-dependent segmentation", "context-dependent segmentation"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q12",
+    "question": "What benefits do H-Nets demonstrate when processing bytes, languages, code, or DNA sequences?",
+    "expected_paper": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+    "expected_topics": ["byte-level modeling", "character robustness", "code", "Chinese", "DNA", "data efficiency"],
+    "expected_pdf_pages": [],
+    "answerable": true
+  },
+  {
+    "id": "Q13",
+    "question": "What is the current Groq API rate limit for my account, and how many requests can I send per minute?",
+    "expected_paper": null,
+    "expected_topics": [],
+    "expected_pdf_pages": [],
+    "answerable": false
+  },
+  {
+    "id": "Q14",
+    "question": "What is the current weather forecast for Kolkata?",
+    "expected_paper": null,
+    "expected_topics": [],
+    "expected_pdf_pages": [],
+    "answerable": false
+  },
+  {
+    "id": "Q15",
+    "question": "What is Vaani's current employee count and annual revenue?",
+    "expected_paper": null,
+    "expected_topics": [],
+    "expected_pdf_pages": [],
+    "answerable": false
+  }
+]

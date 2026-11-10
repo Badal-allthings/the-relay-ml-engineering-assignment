@@ -1,0 +1,6 @@
+request_id,scenario,source,start_time,first_token_ms,total_ms,status,retries,tokens_in,tokens_out,retrieval_setting,answer_grade,http_status,error_detail
+adcbe0fc-70ed-465c-94a6-8d8cba9f68ed,validation,real,2026-11-10T15:13:09.256084+05:30,763.93,818.73,ok,0,80,103,direct_short_prompt_streaming,,200,
+9ef1ae36-cbe9-4951-af52-87c9bc2c394a,validation,real,2026-11-10T15:13:10.074945+05:30,287.9,315.88,ok,0,80,91,direct_short_prompt_streaming,,200,
+ef979400-c8e8-4642-bd90-ae4e47e88e63,validation,real,2026-11-10T15:13:10.390922+05:30,435.58,467.91,ok,0,80,227,direct_short_prompt_streaming,,200,
+19a53cb6-ecb8-4196-a9c1-78cfacf48338,validation,real,2026-11-10T15:13:10.858927+05:30,511.65,548.93,ok,0,80,107,direct_short_prompt_streaming,,200,
+9214222a-9a35-4222-ac26-caf8fa5e6124,validation,real,2026-11-10T15:13:11.407956+05:30,374.28,404.5,ok,0,80,52,direct_short_prompt_streaming,,200,

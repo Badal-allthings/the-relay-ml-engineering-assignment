@@ -1,0 +1,6 @@
+mode,stream,start_time,http_status,status,first_token_ms,total_ms,detail
+normal,False,2026-11-10T14:50:10.523289+05:30,200,ok,,347.33,"{""request_id"":""c80334ca-7783-4b63-9eb0-f345855fe33c"",""status"":""ok"",""output"":""This is a simulated response from the stand-in model service. It is intended for testing latency, streaming, failures, and load behaviour. It is not a real research answer."""
+slow,False,2026-11-10T14:50:10.871068+05:30,200,ok,,2013.15,"{""request_id"":""cd331dc1-b808-43b7-abdd-aa5960c1d002"",""status"":""ok"",""output"":""This is a simulated response from the stand-in model service. It is intended for testing latency, streaming, failures, and load behaviour. It is not a real research answer."""
+error,False,2026-11-10T14:50:12.884774+05:30,503,error,,139.43,"{""request_id"":""c76a110e-e4e3-43b6-bfe0-428a977c30b6"",""status"":""error"",""error"":""Simulated upstream service failure""}"
+timeout,False,2026-11-10T14:50:13.024834+05:30,,timeout,,1010.89,Client timeout
+normal,True,2026-11-10T14:50:24.050030+05:30,200,ok,313.36,1080.49,"This is a simulated response from the stand-in model service. It is intended for testing latency, streaming, failures, and load behaviour. It is not a real research answer. "
